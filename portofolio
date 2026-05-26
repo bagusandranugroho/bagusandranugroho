@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bagus Andra Nugroho | Portfolio</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f5f7fa;
+  color: #333;
+}
+
+header {
+  background: linear-gradient(135deg, #1e3a8a, #2563eb);
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+header p {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+nav {
+  background: white;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 15px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+nav a {
+  text-decoration: none;
+  color: #1e3a8a;
+  font-weight: bold;
+}
+
+.container {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+h2 {
+  color: #1e3a8a;
+}
+
+ul {
+  line-height: 1.8;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #777;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>Bagus Andra Nugroho</h1>
+  <p>Licensing Specialist | Legal & Industrial Compliance Enthusiast</p>
+</header>
+
+<nav>
+  <a href="#about">Tentang</a>
+  <a href="#skills">Keahlian</a>
+  <a href="#blog">Artikel</a>
+  <a href="#contact">Kontak</a>
+</nav>
+
+<div class="container">
+
+<div class="card" id="about">
+<h2>Tentang Saya</h2>
+<p>Saya adalah profesional di bidang perizinan dan legalitas industri dengan pengalaman dalam mengelola izin teknis, operasional, dan lingkungan. Saat ini bekerja di PT. Dua Kelinci serta sedang menempuh S1 Ilmu Hukum di Universitas Terbuka.</p>
+</div>
+
+<div class="card" id="skills">
+<h2>Keahlian</h2>
+<ul>
+<li>Perizinan Impor & Persetujuan Impor (PI)</li>
+<li>Perizinan Teknis (Boiler, Crane, Bejana Tekan)</li>
+<li>AMDAL, ANDALALIN, PBG, SLF</li>
+<li>OSS RBA, SIINas, INSW, Inatrade</li>
+</ul>
+</div>
+
+<div class="card" id="blog">
+<h2>Artikel</h2>
+
+<h3>Peran Penting OSS RBA dalam Perizinan Usaha</h3>
+<p>OSS RBA adalah sistem perizinan berbasis risiko yang membantu pelaku usaha memperoleh legalitas dengan cepat dan efisien.</p>
+
+<h4>Manfaat:</h4>
+<ul>
+<li>Proses cepat</li>
+<li>Transparansi tinggi</li>
+<li>Integrasi antar instansi</li>
+</ul>
+
+<p>Namun, tantangan seperti perubahan regulasi dan sinkronisasi data masih sering terjadi di lapangan.</p>
+
+</div>
+
+<div class="card" id="contact">
+<h2>Kontak</h2>
+<p>Email: emailkamu@gmail.com</p>
+<p>LinkedIn: linkedin.com/in/username</p>
+</div>
+
+</div>
+
+<footer>
+<p>© 2026 Bagus Andra Nugroho</p>
+</footer>
+
+</body>
+</html>
